@@ -1,0 +1,28 @@
+Real Estate Data Cleaning and Normalization README
+Overview
+This repository contains a cleaned, normalized, and relevant subset of the original real estate dataset (Realestate.csv). The goal of this preprocessing was to ensure that the data is well-structured, free from inconsistencies, and ready for further analysis or modeling.
+
+Contents
+Dataset Files:
+
+cleaned_normalized_realestate.csv: The cleaned and normalized dataset with relevant features.
+Cleaning Process:
+
+Step 1: Data Inspection:
+Utilized pandas to load the dataset and examine its structure.
+Step 2: Handling Missing Values:
+Removed or imputed missing values based on the nature of the data.
+Step 3: Handling Duplicates:
+Checked for and removed any duplicate rows.
+Step 4: Outlier Detection and Handling:
+Identified and handled outliers in numerical columns.
+Normalization Process:
+
+Step 5: Standardization:
+Standardized numerical features using the StandardScaler from scikit-learn.
+Step 6: Categorical Data Encoding:
+Applied one-hot encoding to categorical variables if needed.
+Isolating Relevant Data:
+
+Step 7: Feature Selection:
+Selected the most relevant features based on correlation for further analysis.
