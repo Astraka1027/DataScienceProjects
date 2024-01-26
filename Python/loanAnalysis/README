@@ -1,0 +1,5 @@
+
+Loan Prediction: Linear Regression and Confusion Matrix
+Overview
+This repository encompasses the implementation of linear regression testing and the utilization of a confusion matrix for loan prediction based on the loanP_train.csv dataset. 
+The objective is to predict loan approvals through a linear regression model and evaluate its performance using a confusion matrix.
